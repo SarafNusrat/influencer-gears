@@ -1,0 +1,11 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&family=Poppins&family=Roboto&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Acme', sans-serif;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
