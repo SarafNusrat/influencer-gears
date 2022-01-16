@@ -55,8 +55,35 @@ h1{
 @media (max-width: 700px){
     .top-section{
         flex-direction: column;
+        text-align: center;
+    }
+    .top-2 img{
+        margin-left: 10px;
     }
 }
+
+@media (min-width: 1200px) {
+    .top-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .top-2 img{
+        margin-left: 10px;
+    }
+}
+
+.collection-section{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/*------- item styles --------*/
+.items .item-banner img{
+    height: 124px;
+    width: 104px;
+}
+
+
 
 
 
