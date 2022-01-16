@@ -7,7 +7,7 @@ body{
     font-family: 'Bree Serif', serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
-    margin: 70px 100px;
+    margin: 70px 90px;
 }
 
 h1{
@@ -73,18 +73,18 @@ h1{
 }
 
 .collection-section{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 #popular-text{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 /*------- item styles --------*/
 .items .item-banner img{
-    height: 184px;
-    width: 184px;
+    height: 160px;
+    width: 190px;
     margin-bottom: 0%;
 }
 
@@ -118,8 +118,17 @@ h1{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 24px;
+    margin-left: 120px;
+    padding-right: 140px;
 }
 
+.item{
+    margin-bottom: 50px;
+    border: 10px solid rgba(225, 234, 238, 0.185);
+    background-color: rgba(215, 229, 235, 0.3);
+    border-radius: 3px;
+    padding: 8px 8px 8px 8px;
+}
 
 
 
